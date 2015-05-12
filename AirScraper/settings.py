@@ -13,5 +13,8 @@ BOT_NAME = 'AirScraper'
 SPIDER_MODULES = ['AirScraper.spiders']
 NEWSPIDER_MODULE = 'AirScraper.spiders'
 
+FEED_URI = 'output.csv'
+FEED_FORMAT = 'csv'
+
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'AirScraper (+http://www.yourdomain.com)'

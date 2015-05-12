@@ -17,4 +17,4 @@ class AirscraperItem(scrapy.Item):
     departTime = scrapy.Field()
     arriveTime = scrapy.Field()
     price = scrapy.Field()
-    #points = scrapy.Field()
+    points = scrapy.Field()
