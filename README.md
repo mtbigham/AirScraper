@@ -16,3 +16,6 @@ scrapy crawl airSpider -a args=MCO,JFK,2015-05-13,2015-05-15
 ##Output
 A file named `Output.csv` will be generated in the AirScraper directory
 NOTE: The current default output (if run without args specified) is for MCO->BOS on 2015-05-13 to 2015-05-15
+
+##Goals
+Airscraper was originally just a quick weekend project to get some experience with Python and the Scrapy framework.  As such, it currently only grabs the flight info from one set of origins/destinations at a time, and only for the dates that the user specifies.  I would like to expand this to correctly grab information on every Jetblue flight for the coming X user-entered days.
